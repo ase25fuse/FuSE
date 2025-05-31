@@ -1,5 +1,5 @@
 # Artifact description
-This is the artifact of submission #1579 (**LLM-Promoted Symbolic Execution for Functional Test Generation**) in ISSTA 2025. 
+This is the artifact of submission #2449 (**Large Language Model based Functional Symbolic Execution**) in ASE 2025. 
 
 The artifact is provided as a docker image, which contains the prototype of the proposed method and benchmarks used for evaluation. The aim is to assist the reviewers in reproducing the experimental results in our evaluation.
 
