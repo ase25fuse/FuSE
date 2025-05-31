@@ -9,14 +9,14 @@ The artifact is provided as a docker image, which contains the prototype of the 
 
 # Running the artifact
 
-Firstly, pull the already prebuilt docker image from [docker hub](https://hub.docker.com/r/issta25/llmprose). Please make sure its name is `issta25/llmprose`.
+Firstly, pull the already prebuilt docker image from [docker hub](https://hub.docker.com/r/fuse25/fuse).Please make sure its name is `fuse25/fuse`.
 ```sh
-$ sudo docker pull issta25/llmprose:v1
+$ sudo docker pull fuse25/fuse:latest
 ```
 
-If everything is ok, a `issta25/llmprose` image should be found in the images listed by `docker images` command. Then, you can create a container of such image and start a Bash session using the following command. An interactive `bash` shell on the container is also executed at the moment.
+If everything is ok, a `fuse25/fuse` image should be found in the images listed by `docker images` command. Then, you can create a container of such image and start a Bash session using the following command. An interactive `bash` shell on the container is also executed at the moment.
 ```sh
-$ sudo docker run -it issta25/llmprose:v1 bash
+$ sudo docker run -it fuse25/fuse:latest bash
 ```
 
 If all goes well, the container should be running successfully. Otherwise, you can seek help from [Docker Doc](https://docs.docker.com/) if needed. 
